@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="Apka.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Apka"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid FocusVisualSecondaryBrush="#FDA2CEA2" Visibility="Visible" FocusVisualPrimaryBrush="#FFFF8F8F" Background="#FF717171">
+        <Button x:ConnectionId='2' Content="True!" Margin="573,314,0,0" VerticalAlignment="Top" Height="74" Width="177" FontSize="48" Background="#FFBEECFF"                     />
+        <CheckBox x:ConnectionId='3' x:Name="CheckBox2133" Margin="0,277,0,0" VerticalAlignment="Top" FontSize="1,01" BorderThickness="48,0,0,0" HorizontalAlignment="Center" ElementSoundMode="Default" FocusVisualSecondaryThickness="1,1,1,1" Width="75">
+            <CheckBox.Projection>
+                <PlaneProjection RotationX="0" GlobalOffsetX="0" LocalOffsetX="0" CenterOfRotationX="0"/>
+            </CheckBox.Projection>
+        </CheckBox>
+        <Button x:ConnectionId='4' x:Name="FalseButton" Content="False!" Margin="755,314,0,0" VerticalAlignment="Top" Background="#FFFFACAC" Height="74" Width="184" FontSize="48"                          />
+
+    </Grid>
+</Page>
+
